@@ -1,0 +1,141 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.header-left img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.header-center {
+  margin-left: 166px;
+}
+
+@media (max-width: 922px) {
+  .header-center {
+    display: none; /* Ocultar el contenido en pantallas pequeñas */
+  }
+}
+
+.header-center h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.header-right img {
+  width: 266px;
+}
+
+/* Estilos para el contenido principal */
+#main-content {
+  text-align: center;
+  padding: 20px 20px 8px 20px;
+}
+
+#main-content h1 {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Estilos para el video */
+#video-container {
+  text-align: center;
+  padding: 0 20px 20px 20px;
+}
+
+.video-title {
+  margin-bottom: 40px;
+}
+
+#video-container h2 {
+  font-size: 20px;
+}
+
+.iframe-class {
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width: 600px) {
+  .iframe-class {
+    max-width: 320px;
+    height: 180px;
+  }
+}
+
+/* Estilos para la sección de testimonios */
+#testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.testimoonial-title {
+  margin-bottom: 50px;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin-right: 40px;
+  object-fit: cover;
+}
+
+.testimonial p {
+  text-align: justify;
+  font-size: 30px;
+  color: #333;
+  max-width: 500px;
+}
+
+@media (max-width: 870px) {
+  .testimonial img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+  }
+  
+  .testimonial p {
+    text-align: justify;
+    font-size: 20px;
+    color: #333;
+    max-width: 500px;
+  }
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
