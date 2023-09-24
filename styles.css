@@ -39,6 +39,16 @@ header {
   width: 266px;
 }
 
+@media (max-width: 386px) {
+  .header-left img {
+    width: 74px;
+    border-radius: 50%;
+  }
+  .header-right img {
+    width: 230px;
+  }
+}
+
 /* Estilos para el contenido principal */
 #main-content {
   text-align: center;
@@ -77,6 +87,13 @@ header {
   .iframe-class {
     max-width: 320px;
     height: 180px;
+  }
+}
+
+@media (max-width: 386px) {
+  .iframe-class {
+    max-width: 240px;
+    height: 135px;
   }
 }
 
@@ -127,7 +144,22 @@ header {
     text-align: justify;
     font-size: 20px;
     color: #333;
-    max-width: 500px;
+  }
+}
+
+@media (max-width: 386px) {
+  .testimonial img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 14px;
+    object-fit: cover;
+  }
+  
+  .testimonial p {
+    text-align: justify;
+    font-size: 14px;
+    color: #333;
   }
 }
 
